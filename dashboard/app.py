@@ -7,7 +7,8 @@ import seaborn as sns
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+PROJECT_ROOT = os.getcwd()
+sys.path.append(PROJECT_ROOT)
 
 # -------------------- IMPORT PROJECT MODULES --------------------
 from data.stock_data import fetch_stock_data
