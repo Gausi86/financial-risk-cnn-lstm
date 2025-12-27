@@ -66,3 +66,4 @@ def fetch_sentiment(symbol, return_news=False):
         return weighted_score, headlines
 
     return weighted_score
+

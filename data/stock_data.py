@@ -5,3 +5,4 @@ def fetch_stock_data(symbol):
     df = df[['Open', 'High', 'Low', 'Close', 'Volume']]
     df.dropna(inplace=True)
     return df
+

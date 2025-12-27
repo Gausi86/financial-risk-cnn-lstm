@@ -34,3 +34,4 @@ def compute_fundamental_score(fundamentals):
 
     return min(score, 1.0)
 
+

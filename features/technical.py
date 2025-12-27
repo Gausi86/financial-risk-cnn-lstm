@@ -16,3 +16,4 @@ def add_technical_features(df):
     df["RSI"] = 100 - (100 / (1 + rs))
 
     return df.dropna()
+

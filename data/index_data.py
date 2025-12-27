@@ -37,3 +37,4 @@ def market_is_bullish(index_df):
         return True  # not enough data → neutral bullish
 
     return ma50.iloc[-1] > ma200.iloc[-1]
+

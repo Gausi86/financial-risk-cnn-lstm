@@ -11,3 +11,4 @@ def create_sequences(X, y, time_steps=10):
         Xs.append(X[i:i + time_steps])
         ys.append(y[i + time_steps])   # ✅ FIXED
     return np.array(Xs), np.array(ys)
+

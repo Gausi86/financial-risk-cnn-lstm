@@ -17,3 +17,4 @@ def build_cnn_lstm(input_shape):
     )
 
     return model
+
