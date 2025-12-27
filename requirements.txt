@@ -1,0 +1,11 @@
+numpy
+pandas
+yfinance
+nsepython
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+nltk
+streamlit
+newsapi-python
