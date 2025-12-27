@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import seaborn as sns
 import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # -------------------- IMPORT PROJECT MODULES --------------------
 from data.stock_data import fetch_stock_data
