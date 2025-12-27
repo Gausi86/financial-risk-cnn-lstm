@@ -9,3 +9,5 @@ seaborn
 nltk
 streamlit
 newsapi-python
+plotly
+requests
